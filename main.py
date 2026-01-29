@@ -24,7 +24,7 @@ def menu_interactif():
     """
     Gère l'interaction avec l'utilisateur pour choisir et exécuter les actions.
     """
-    file_path = "C:\APP1\Sales_April_2019.csv" 
+    file_path = "data/Sales_April_2019.csv" 
     csv_data = csv_to_dict(file_path)
     
     while True:
@@ -127,3 +127,4 @@ if __name__ == "__main__":
     menu_interactif()
         
        
+
